@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Week 04: Maps</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+	<h1>Maps</h1>
+
+	  <form id="favorites">
+      <label>Choose a location</label>
+      <select name="select">
+        <optgroup label="Favorite Places">
+          <option>Granbury, TX</option>
+          <option>Houghton, MI</option>
+          <option>Sucia Island</option>
+          <option>Eagle Harbor</option>
+          <option>Fairhaven, WA</option>
+        </optgroup>
+      </select>
+      <input type="submit" name="favorite-places">
+    </form>
+
+    <form>
+      <label>Latitude</label>
+      <input type="text" name="latitude">
+      <label>Longitude</label>
+      <input type="text" name="longitude">
+      <label>Zoom</label>
+      <input type="text" name="zoom">
+      <input type="submit" name="locator">
+		</form>
+
+		<div id="map"></div>
+ 
+
+
+
+		<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_cwiW78xtvKn9hKEPmGdCdx1RJ7ofKig&callback=initMap">
+    </script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+
+
+</html>
