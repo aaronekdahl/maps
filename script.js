@@ -1,20 +1,3 @@
-// var googleMap = new google.maps.Map( $('#google-map')[0] );
-
-// googleMap.setCenter( { lat: 47.6205, lng: -122.3493 } );
-// googleMap.setZoom( 16 );
-
-// var marker = new google.maps.Marker( {
-//         position: { lat: 47.6205, lng: -122.3493 }
-//     } );
-// marker.setMap( googleMap );
-
-// var infoWindow = new google.maps.InfoWindow( {
-//         content: 'The Space Needle'
-//     } );
-// marker.addListener( 'click', function( ) {
-//         infoWindow.open( googleMap, marker );
-//     } );
-
 function initMap() {
         var seattle = {lat: 47.606, lng: -122.332};
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -26,3 +9,10 @@ function initMap() {
           map: map
         });
       }
+
+//-------------------------------------Favorite Places-----------------------------------------------//
+var granbury = //32.4421° N, 97.7942° W
+var houghton = //47.1211° N, 88.5694° W
+var suciaIsland = //48.7551° N, 122.9034° W
+var eagleHarbor = //48.5753° N, 122.7066° W
+var fairhaven = //48.7184° N, 122.5070° W
