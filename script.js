@@ -13,29 +13,26 @@ function initMap() {
         });
 			}
 
-//---------------------------latitude function for user on-submit action-------------------------------//
+//---------------------------lat/lon function for user on-submit action-------------------------------//
 
-function userLat() {
-
-}
-
-//---------------------------longitude function for user on-submit action-----------------------------//
-
-function userLon() {
-
-}
-
-//-------------------------favorite places function for user on-submit action-------------------------//
-
-function userPlaces() {
-
-}
-
+// function initCoords() {
+//        var userLatLng = new google.maps.LatLng(47.606, -122.332);
+//        var userOptions = {
+//         	zoom: 14,
+//         	center: userLatLng,
+//         	mapTypeId: google.maps.MapTypeId.ROADMAP
+// 				}
+// 				var map = new google.maps.Map(document.getElementById("map"), userOptions);
+// 			}	
 
 //-------------------------------------Favorite Places-----------------------------------------------//
 
-// var granbury = //32.4421° N, 97.7942° W
-// var houghton = //47.1211° N, 88.5694° W
-// var suciaIsland = //48.7551° N, 122.9034° W
-// var eagleHarbor = //48.5753° N, 122.7066° W
-// var fairhaven = //48.7184° N, 122.5070° W
+// var granbury = 32.4421, 97.7942
+// var houghton = 47.1211, 88.5694
+// var suciaIsland = 48.7551, 122.9034
+// var eagleHarbor = 48.5753, 122.7066
+// var fairhaven = 48.7184, 122.5070
+
+function hello() {
+	alert("Hello!");
+}
