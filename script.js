@@ -13,6 +13,26 @@ function initMap() {
         });
 			}
 
+//-------------------------------------------Psuedocode-------------------------------------------------//
+
+//----------------------Create function to submit coordinates entered in html form----------------------//
+
+//1. Create form event handler using jqeury "$(selector).on(event,childSelector,data,function,map)"" 
+//method to submit coordinates entered in web page form.
+
+$('form #coord').on('submit', function(event) {
+	$('#lat', '#lon').html();
+});
+
+$('form').submit(function(event) {
+  event.preventDefault();
+});
+
+//2. Write function to update coordinates in google maps api, thus updating what is displayed through 
+//the "map" div.
+
+
+
 //-------------------------------------Favorite Place Coords------------------------------------------//
 
 // var granbury = 32.4421, 97.7942
@@ -32,11 +52,6 @@ function initMap() {
 // 				}
 // 				var map = new google.maps.Map(document.getElementById("map"), userOptions);
 // 			}
-
-//---------------------------lat/lon function for user on-submit action-------------------------------//
-
-
-
 
 
 
